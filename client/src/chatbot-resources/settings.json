@@ -1,0 +1,14 @@
+{
+	"general": {
+		"primaryColor": "#070707",
+		"secondaryColor": "#070707",
+		"showFooter": false
+	},
+	"header": {
+		"showAvatar": false,
+		"title":"Powered by Vishal Yadav & Gemini"
+	},
+	"tooltip": {
+        "mode": "false"
+    }
+}

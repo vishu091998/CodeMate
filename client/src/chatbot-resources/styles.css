@@ -1,0 +1,68 @@
+.rcb-options-container {
+    max-width: none;
+    align-items: flex-start;
+    margin-inline: 15px;
+    flex-direction: column;
+    gap: 0;
+}
+
+.rcb-options::before {
+    content: "- \00a0";
+}
+
+.rcb-close-chat-icon {
+    margin: 2px 0 0 11px;
+    height: 15px;
+    width: 15px;
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff3a20;
+    border-radius: 50%;
+}
+
+.rcb-notification-icon-on,
+.rcb-notification-icon-off,
+.rcb-audio-icon-on,
+.rcb-audio-icon-off {
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+}
+
+.rcb-user-message-container {
+    justify-content: left;
+}
+
+.rcb-user-message::before {
+    content: "> \00a0";
+}
+
+.rcb-chat-input::before {
+    content: "react-chatbotify ~ % \00a0";
+    font-size: 14px;
+}
+
+.rcb-chat-input-textarea::placeholder {
+    color: "#070707";
+    opacity: 0;
+}
+
+/* to ensure the options in chat history are styled correctly */
+.rcb-options {
+    background-color: #070707 !important;
+    border: 0 !important;
+    padding: 0;
+}
+
+.rcb-view-history-button::before {
+    content: "- - - [ \00a0";
+}
+
+.rcb-view-history-button::after {
+    content: "\00a0 ] - - -";
+}
+
+.rcb-message-prompt-text {
+    color: #070707;
+}
