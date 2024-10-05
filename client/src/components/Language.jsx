@@ -37,7 +37,7 @@ function Language ({ code }) {
   const callApi = () => {
     return new Promise(async (resolve, reject) => {
       try {
-        const response = await axios.post('http://localhost:8082/compile', {
+        const response = await axios.post('https://codemate-backend-hsdw.onrender.com/compile', {
           code: code.current,
           language: lang
         })

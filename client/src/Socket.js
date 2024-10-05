@@ -7,5 +7,5 @@ export const initSocket = async()=>{
         timeout: 10000,
         transports: ['websocket'],
     };
-    return io('http://localhost:8082',options);
+    return io('https://codemate-backend-hsdw.onrender.com',options);
 }
