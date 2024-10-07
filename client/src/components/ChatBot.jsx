@@ -8,7 +8,7 @@ const MyChatBot = () => {
   let hasUpdated = false
 
   const genAI = new GoogleGenerativeAI(
-    process.env.GOOGLE_API_KEY
+    'AIzaSyBG937-4afpwQJLxBqIy_cUJIXOibeeKow'
   )
   async function run(prompt) {
     // For text-only input, use the gemini-pro model
